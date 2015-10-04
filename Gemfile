@@ -48,6 +48,7 @@ gem "aasm"
 gem "activemerchant", "~> 1.43.1"
 gem "active_merchant_allpay", "0.1.2"
 gem "awesome_rails_console"
+gem "delayed_job_active_record"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -65,6 +66,4 @@ group :development do
     gem "roadie", "2.4.3"
     gem "rails-erd"
 end
-
-
 
