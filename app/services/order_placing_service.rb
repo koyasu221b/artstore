@@ -11,4 +11,5 @@ class OrderPlacingService
         #OrderMailer.notify_order_placed(@order).deliver
         OrderMailer.delay.notify_order_placed(@order)
     end
+
 end
